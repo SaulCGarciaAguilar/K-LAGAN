@@ -40,7 +40,7 @@ This is a test to BCNC about inditest project
 ```
 ### Code Examples
 
-This is the form to consult the data with the @GET Service `http://localhost:8080/api/pices?startDate=2020-06-15T16:00:00&productId=35455&brandId=1`
+This is the form to consult the data with the @GET Service `http://localhost:8080/api/prices?startDate=2020-06-15T16:00:00&productId=35455&brandId=1`
 
 ### Disclaimer Section
 
