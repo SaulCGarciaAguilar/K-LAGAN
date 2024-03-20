@@ -1,4 +1,4 @@
-package com.kalagan.kalagantest.model.dto;
+package com.kalagan.kalagantest.application.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;

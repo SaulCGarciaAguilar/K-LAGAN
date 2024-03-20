@@ -1,6 +1,6 @@
-package com.kalagan.kalagantest.infraestructure.repository;
+package com.kalagan.kalagantest.dominio.repository;
 
-import com.kalagan.kalagantest.infraestructure.entity.Price;
+import com.kalagan.kalagantest.dominio.entity.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

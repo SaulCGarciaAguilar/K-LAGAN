@@ -1,8 +1,8 @@
 package com.kalagan.kalagantest.controller;
 
-import com.kalagan.kalagantest.adapter.web.controller.PriceController;
+import com.kalagan.kalagantest.application.dto.PriceDto;
 import com.kalagan.kalagantest.application.service.PriceService;
-import com.kalagan.kalagantest.model.dto.PriceDto;
+import com.kalagan.kalagantest.infraestructure.adapter.web.controller.PriceController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

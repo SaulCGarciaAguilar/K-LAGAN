@@ -1,4 +1,4 @@
-package com.kalagan.kalagantest.infraestructure.entity;
+package com.kalagan.kalagantest.dominio.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

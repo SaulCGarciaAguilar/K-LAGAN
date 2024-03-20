@@ -7,7 +7,6 @@
 * [Technologies](#technologies)
 * [Source Code Review](#source-code-review)
 * [Code Examples](#code-examples)
-* [Disclaimer](#disclaimer-section)
 
 ### Overview
 This is a test to BCNC about inditest project
@@ -41,7 +40,3 @@ This is a test to BCNC about inditest project
 ### Code Examples
 
 This is the form to consult the data with the @GET Service `http://localhost:8080/api/prices?startDate=2020-06-15T16:00:00&productId=35455&brandId=1`
-
-### Disclaimer Section
-
-* This is a test, but too can a little example to use a hexagonal architecture

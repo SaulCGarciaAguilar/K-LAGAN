@@ -1,8 +1,8 @@
 package com.kalagan.kalagantest.application.service;
 
-import com.kalagan.kalagantest.infraestructure.entity.Price;
-import com.kalagan.kalagantest.infraestructure.repository.PriceRepository;
-import com.kalagan.kalagantest.model.dto.PriceDto;
+import com.kalagan.kalagantest.application.dto.PriceDto;
+import com.kalagan.kalagantest.dominio.entity.Price;
+import com.kalagan.kalagantest.dominio.repository.PriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

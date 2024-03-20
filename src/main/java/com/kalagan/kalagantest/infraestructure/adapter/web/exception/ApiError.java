@@ -1,4 +1,4 @@
-package com.kalagan.kalagantest.adapter.web.exception;
+package com.kalagan.kalagantest.infraestructure.adapter.web.exception;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ public class ApiError {
     private String message;
     private List<String> errors;
 
-    public ApiError(LocalDateTime timestamp, HttpStatus status,
+    public ApiError(HttpStatus status,
                     String message, List<String> errors) {
         this.timestamp = timestamp;
         this.status = status;

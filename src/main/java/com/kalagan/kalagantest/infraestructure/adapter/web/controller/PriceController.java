@@ -1,8 +1,8 @@
-package com.kalagan.kalagantest.adapter.web.controller;
+package com.kalagan.kalagantest.infraestructure.adapter.web.controller;
 
 
+import com.kalagan.kalagantest.application.dto.PriceDto;
 import com.kalagan.kalagantest.application.service.PriceService;
-import com.kalagan.kalagantest.model.dto.PriceDto;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
