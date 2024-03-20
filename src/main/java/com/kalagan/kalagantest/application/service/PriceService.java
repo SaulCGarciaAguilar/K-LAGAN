@@ -42,6 +42,6 @@ public class PriceService {
     private Price selectPrice(List<Price> prices) {
         prices.sort(Comparator.comparingInt(Price::getPriority).reversed());
 
-        return prices.stream().findFirst().orElse(null);
+        return prices.stream().findAny().orElse(null);
     }
 }
